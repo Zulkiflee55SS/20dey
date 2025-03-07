@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #4c95d0, #ab64de);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.top-bar {
+    background-color: rgb(0, 131, 224);
+    color: #b9bdf7;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    color: #000;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+}
+
+.rounded-img {
+    text-align: left;
+    width: 200px;
+    height: 500px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
